@@ -1,0 +1,35 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+.site-header {
+  padding-bottom:3px;
+  background-color:#56CBF9;
+  width:100%;
+}
+
+#logo {
+  color:white;
+  font-size:24pt;
+  font-family: 'Pacifico', cursive;
+  width:128px;
+  margin-left:14px;
+  float:left;
+  position:relative;
+}
+
+ul#pages {
+  color:white;
+  list-style-type:none;
+  font-family:Arial;
+  margin:0;
+  padding:0;
+  width:100%;
+}
+
+ul#pages > li {
+  display:inline-block;
+  padding:17px;
+  padding-top:22px;
+}
