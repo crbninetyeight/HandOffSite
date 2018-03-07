@@ -28,6 +28,27 @@ body {
   margin:0;
 }
 
+.sell {
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+  margin:40px;
+  margin-top:60px;
+}
+
+.footer {
+  color:white;
+  background-color:#37474F;
+  width:100%;
+  height:200px;
+  margin-top:94px;
+}
+
+.footer > div#logo {
+  float:none;
+  position:relative;
+  height:auto;
+}
+
 #logo {
   height:inherit;
   color:white;
