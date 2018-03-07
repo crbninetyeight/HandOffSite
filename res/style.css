@@ -62,6 +62,13 @@ body {
   padding-right:15px;
 }
 
+#hashtag {
+  color:white;
+  font-size:15pt;
+  font-family: 'Arial', sans-serif;
+  margin-left:14px;
+}
+
 ul#pages {
   height:inherit;
   color:white;
