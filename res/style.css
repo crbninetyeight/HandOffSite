@@ -9,6 +9,25 @@ body {
   height:63px;
 }
 
+.hero-photo {
+  background:url(./hero-image-compressed.jpg) no-repeat center top;
+  background-size:1000px;
+  width:100%;
+  height:510px;
+}
+
+.hero-photo > .vertical-centered {
+  color:white;
+  font-size:15pt;
+  font-family: 'Arial';
+  padding-top:132px;
+  text-align:center;
+}
+
+.hero-photo > .vertical-centered > h1,h2,h3 {
+  margin:0;
+}
+
 #logo {
   height:inherit;
   color:white;
