@@ -4,12 +4,13 @@ body {
 }
 
 .site-header {
-  padding-bottom:3px;
   background-color:#56CBF9;
   width:100%;
+  height:63px;
 }
 
 #logo {
+  height:inherit;
   color:white;
   font-size:24pt;
   font-family: 'Pacifico', cursive;
@@ -17,9 +18,11 @@ body {
   margin-left:14px;
   float:left;
   position:relative;
+  padding-right:15px;
 }
 
 ul#pages {
+  height:inherit;
   color:white;
   list-style-type:none;
   font-family:Arial;
@@ -30,6 +33,18 @@ ul#pages {
 
 ul#pages > li {
   display:inline-block;
-  padding:17px;
-  padding-top:22px;
+  padding-top:21px;
+  text-align:center;
+}
+
+ul#pages > li > a:link, a:visited {
+  color:white;
+  padding:22px;
+  text-decoration:none;
+}
+
+ul#pages > li > a:hover, a:active {
+  color:#56CBF9;
+  background:white;
+  text-decoration:none;
 }
